@@ -25,5 +25,10 @@ int main ()
         mi[brIgre] = 162 - vi [brIgre];
         brIgre++;
     }
+    cout<<"mi"<<"\t"<<"vi"<<endl;
+    for(int i=0; i<brIgre; i++)
+    {
+        cout<<"mi[i]"<<"\t"<<"vi[i]"<<endl;
+    }
     return 0;
 }
