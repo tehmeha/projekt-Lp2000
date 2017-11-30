@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+int Izracunaj_bodove_druge_ekipe
+
 int main ()
 {
     int mi[20], vi[20];
@@ -40,8 +42,12 @@ int main ()
     {
         cout<<mi[i]<<"\t"<<vi[i]<<endl;
     }
-    cout << "------------------";
+    cout << "------------------" <<endl,
     cout <<suma_mi<<"\t"<<suma_vi<<endl;
+    if(suma_mi>=1001 || suma_vi>=1001)
+    {
+        break;
+    }
 }
     return 0;
 }
